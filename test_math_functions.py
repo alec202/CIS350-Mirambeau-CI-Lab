@@ -16,6 +16,12 @@ def test_calc_multiply():
 #    output = multiply_numbers(2,4)
 #    assert output == 16
 
+def test_calc_power():
+    assert power_numbers(2, 3) == 8
+
+def test_floor_division():
+    assert floor_division(9, 2) == 4
+
 def test_calc_divide():
     output = divide_numbers(10,2)
     assert output == 5
